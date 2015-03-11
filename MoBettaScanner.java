@@ -1,5 +1,18 @@
 package BankApplication;
 
+/* @author: William Robert Howerton III
+ * @version: 1.0.0
+ * @purpose: The purpose of this class is to improve upon the Scanner class and provide added functionality usually
+ *           implemented in the user classes. Methods used to check inputs for validity took up much space in other classes
+ *           and are not modular, creating the need to redifine methods for every other class requiring such functionality.
+ *	     This class allows the user to make instances of a "MoBettaScanner" (Read: More better Scanner) with specified
+ *           max values, min values, lengths, overridden constructors for (double) maximum values, and so on... even a custom
+ *           text prompt to print to the user when the scanner is called.
+ *
+ *
+ */
+
+
 import java.util.Scanner;
 import java.util.regex.*;
 
